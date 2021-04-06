@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap');
+
+:root {
+    font-style: 18px;
+    color:#c28f6b;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-style: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover {
+    color: #9e6f4d;
+}
+.navbar {
+
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 5px 10px;
+
+}
+.nav a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.description{
+    padding: 100px 0 30px 0;
+    font-size: 2rem;
+    max-width: 60%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c28f6b;
+    color:white;
+}
+
+.form{
+    max-width: 70%;
+    padding-top: 20px;
+}
+
+.create{
+    padding-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input{
+    display: block;
+    max-width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.btn{
+    display: inline-block;
+    background: #c28f6b;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
