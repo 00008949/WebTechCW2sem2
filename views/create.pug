@@ -4,11 +4,15 @@ block content
     .container 
         h1.create Create a new post
 
+        if error
+            p.error Please try again!
+        if success
+            p.success It's posted!
         form.form(action="/create" method='POST')
             label Title
             input.input(type="text" name="title")
 
             label Post
-            textarea.input(type="text" name="post")
+            textarea.input(type="text" name="description")
 
             button.btn Create post

@@ -1,0 +1,7 @@
+extend layout
+
+block content
+	h1= post.title
+		a(href="/posts/" + post.id + "/archive").small-button Archive
+
+	p= post.body

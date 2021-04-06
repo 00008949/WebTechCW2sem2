@@ -1,10 +1,10 @@
 extends layout.pug
 
 block content
-    .container
+    div.container
         h1 All posts
 
         each post in posts
-            .note-wrapper
-                a.post(href='/posts/detail')= post
+            .post-wrapper
+                a.post(href=`/blog-app/${ posts.id }`) #{ post.title}
                 a.delete(href='#') delete
