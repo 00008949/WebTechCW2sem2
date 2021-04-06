@@ -4,7 +4,7 @@
 :root {
     font-style: 18px;
     color:#c28f6b;
-    
+    background-color: #e8cfc1;
 }
 
 * {
@@ -13,6 +13,25 @@
     box-sizing: border-box;
 }
 
+.postsH1 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.post-wrapper{
+    margin-top: 20px;
+
+}
+.delete {
+    
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #c28f6b;
+    color:white;
+}
 a {
     text-decoration: none;
     font-style: 100px;
@@ -29,12 +48,14 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #9e6f4d;
+
 }
 
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 5px 10px;
+    padding: 5px 0px;
 
 }
 .nav a {
@@ -56,8 +77,11 @@ a:hover {
 }
 
 .form{
-    max-width: 70%;
+    
     padding-top: 20px;
+    padding: 40px 350px;
+    
+
 }
 
 .create{
