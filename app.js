@@ -70,6 +70,16 @@ app.get('/posts', (req, res) =>{
     })
 })
 
+app.get('/api/v1/posts', (req, res) => {
+
+fs.readFile('./data/posts.json', (err, data) => {
+        if (err) throw err
+
+        const posts = JSON.parse(data)
+    
+    res.json(posts)
+    })
+})
 
 app.get('/posts/:id', (req, res) => {
     const id = req.params.id

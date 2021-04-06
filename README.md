@@ -18,17 +18,13 @@ npm install
 ``bash
 node app
 ```
-4. To exit the app type
-
-```
-ctrl+C
-```
 
 ### Web Application Dependencies:
--express.js https://expressjs.com/ru/
--pug.js https://pugjs.org/api/getting-started.html
+
+-express.js (https://expressjs.com/ru/)
+-pug.js (https://pugjs.org/api/getting-started.html)
 
 ### The link to the web application repository
 
-1. https://github.com/00008949/WebTechCW2sem2.git
+[link to the github repo] (https://github.com/00008949/WebTechCW2sem2.git)
 
